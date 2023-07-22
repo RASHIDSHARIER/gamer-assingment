@@ -1,0 +1,306 @@
+/* work sans font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* nav styles */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    align-items: center;
+    padding: 40px 240px;
+}
+
+
+.gamer-clr {
+    color: #E55473;
+}
+
+.logo-container {
+    display: flex;
+    gap: 20px;
+    width: 60%;
+}
+
+.nav-item-container a {
+    width: 40%;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 18px;
+    color: #3C354F;
+}
+
+.follow-btn {
+
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 18px 24px;
+   
+}
+
+/* nav desing end */
+
+/* banner start */
+.banner-container {
+
+    margin: 50px auto 0;
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
+}
+
+.banner-text h1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 95px;
+
+}
+
+.btn-sing {
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 0;
+}
+
+.btn-go {
+    border-radius: 48px;
+    background: #4EC5F7;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 0;
+    margin-top: 40px;
+}
+
+.banner-text {
+    width: 50%;
+
+
+}
+
+.banner-text h3 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-text li {
+    color: #534C64;
+
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-bottom: 17px;
+
+}
+
+.banner-img {
+
+    width: 50%;
+}
+
+.banner-img img {
+    width: 100%;
+    height: auto;
+}
+
+/* banner end */
+
+/* card start */
+.section-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.card-description {
+    justify-content: center;
+    color: #534C64;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+/* card end */
+/* feature start  */
+.feature-content {
+    text-align: center;
+}
+
+.feature {
+    display: flex;
+    margin-top: 120px;
+    gap: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #0B0223;
+}
+
+.play-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.feature-description {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.feature-img {
+    height: 90%;
+    margin-left: 100px;
+
+}
+
+.small-kitty {
+    position: relative;
+    bottom: 300px;
+    right: 150px;
+}
+
+/* fetures end */
+/* button start */
+.button-section {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.button-two{
+    display: flex;
+    
+}
+/* footer */
+.footer-section {
+    display: flex;
+    justify-content: center;
+    background: #0B0223;
+    padding: 20px 0;
+    min-height: 500px;
+}
+.footer-section .footer .logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+.footer {
+    margin-top: 60px;
+}
+
+
+.amer {
+    color: #FFF;
+}
+
+.g-clr {
+    color: #E55473;
+}
+
+.footer .our-story {
+    display: flex;
+    margin-top: 60px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer .end {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-section .icon .fa-brands{
+    font-size: 40px;
+    cursor: pointer;
+}
+.footer-section .icon{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+   justify-content: center;
+   justify-content: space-between;
+}
+/* responsive for mobile */
+
+@media screen and (max-width: 576px) {
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        background: #FFF;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+        align-items: center;
+        padding: 40px 240px;
+        flex-direction: column;
+    }
+
+    .nav-item-container a {
+        margin-top: 20px;
+    }
+}
